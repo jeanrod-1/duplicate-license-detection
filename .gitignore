@@ -1,0 +1,79 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# --- Virtual environments ---
+env/
+venv/
+ENV/
+.venv/
+.env/
+*.env
+*.venv
+*.virtualenv
+.Python
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- Logs & dumps ---
+*.log
+*.out
+*.bak
+*.tmp
+*.swp
+*.swo
+*.~ 
+*.dump
+nohup.out
+
+# --- OS / Linux-specific ---
+*~
+.DS_Store
+Thumbs.db
+.trash/
+lost+found/
+.cache/
+.nfs*
+
+# --- Git ---
+*.orig
+
+# --- VSCode / IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Pytest / coverage ---
+.cache/
+coverage.*
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# --- My files ---
+# Exclude CSV files everywhere (customizable)
+*.csv
+
+# --- SSH or system secrets ---
+*.pem
+*.key
+*.crt
+*.pub
+*.secret
+secrets.*
